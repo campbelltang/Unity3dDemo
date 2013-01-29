@@ -26,6 +26,7 @@ public class AutoBuild
     PlayerSettings.productName = "Unity3dDemo";
     PlayerSettings.bundleIdentifier = "com.happylatte.Unidy3dDemo";
     EditorUserBuildSettings.development = true;
+    Debug.isDebugBuild = true;
     PerformBuild();
   }
 }
