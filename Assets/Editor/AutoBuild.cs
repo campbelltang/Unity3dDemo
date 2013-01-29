@@ -15,7 +15,7 @@ public class AutoBuild
 
     string[] scenes = (string[])sceneFiles.ToArray(typeof(string));
 
-    string outdir = "/Users/Shared/workspace/Unity3dDemo";
+    string outdir = "/Users/Shared/workspace/Unity3dDemo/Unity3dDemo2ios";
 
     BuildPipeline.BuildPlayer(scenes, outdir, BuildTarget.iPhone, BuildOptions.None);
 
